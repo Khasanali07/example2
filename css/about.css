@@ -122,7 +122,7 @@
     margin: 10px 0;
     font-family: var(--primary-font-nunito);
     font-weight: 500;
-    font-size: 1.12rem;
+    font-size: 1rem;
     line-height: 1.5em;
     color: var(--primary-color);
 }
@@ -131,7 +131,7 @@
     margin: 20px 0 10px;
     font-family: var(--primary-font-raleway);
     font-weight: 700;
-    font-size: 3.75rem;
+    font-size: 3rem;
     line-height: 1.1em;
     color: var(--primary-dark);
 }
@@ -141,10 +141,34 @@
     margin: 30px 0 0;
     font-family: var(--primary-font-nunito);
     font-weight: 500;
-    font-size: 1.12rem;
+    font-size: 1rem;
     line-height: 1.5em;
     color: var(--primary-gray);
     max-width: 500px;
+}
+
+@media (max-width: 368px) {
+    .banner_text_block .link {
+        font-size: 0.8rem;
+    }
+    .banner_text_block .hero {
+        font-size: 2.5rem;
+    }
+    .banner_text_block .description {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .banner_text_block .link {
+        font-size: 1.2rem;
+    }
+    .banner_text_block .hero {
+        font-size: 3.5rem;
+    }
+    .banner_text_block .description {
+        font-size: 1.2rem;
+    }
 }
 
 /* ------- About Section ------- */
@@ -167,7 +191,7 @@
     padding: 0;
     font-family: var(--primary-font-raleway);
     font-weight: 700;
-    font-size: 2.87em;
+    font-size: 3em;
     line-height: 1.1em;
     color: #fff;
     text-align: center;
@@ -183,6 +207,24 @@
     color: var(--primary-gray);
     text-align: center;
     max-width: 629px;
+}
+
+@media (max-width: 368px) {
+    .section_1 .work-info .hero {
+        font-size: 2.5rem;
+    }
+    .section_1 .work-info .description {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .banner_text_block .hero {
+        font-size: 3.5rem;
+    }
+    .section_1 .work-info .description {
+        font-size: 1.2rem;
+    }
 }
 
 /* -------- Carousel -------- */
@@ -212,6 +254,24 @@
     font-weight: 500;
     line-height: 1.5em;
     color: #fff;
+}
+
+@media (max-width: 475px) {
+    .carousel-caption h3 {
+        font-size: 2rem;
+    }
+    .carousel-caption .description {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .banner_text_block .hero {
+        font-size: 3.5rem;
+    }
+    .section_1 .work-info .description {
+        font-size: 1.2rem;
+    }
 }
 
 /* -------- About items -------- */
