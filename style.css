@@ -162,6 +162,18 @@ body {
     display: none;
 }
 
+@media (max-width: 575px) { /* Adjust breakpoint as needed */
+    .banner_text_block .link {
+        font-size: 15px;
+    }
+    .banner_text_block .hero {
+        font-size: 3rem;
+    }
+    .banner_text_block .description {
+        font-size: 15px;
+    }
+}
+
 /* -------------- About Section -------------- */
 .about h2 {
     font-family: var(--primary-font-raleway);
