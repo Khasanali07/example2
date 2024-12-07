@@ -29,7 +29,7 @@ body {
     /* border: 1px solid red; */
     width: 100%;
     height: 100vh;
-    background-image: url(./images/header/home-background-3.jpg);
+    background-image: url(/images/header/home-background-3.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -132,7 +132,7 @@ body {
     margin: 10px 0;
     font-family: var(--primary-font-nunito);
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 1.5em;
     color: #fff;
 }
@@ -141,7 +141,7 @@ body {
     margin: 20px 0 10px;
     font-family: var(--primary-font-raleway);
     font-weight: 700;
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 1.1em;
     color: #fff;
 }
@@ -150,7 +150,7 @@ body {
     margin: 30px 0 0;
     font-family: var(--primary-font-nunito);
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 1.5em;
     color: #fff;
 }
@@ -162,15 +162,27 @@ body {
     display: none;
 }
 
-@media (max-width: 575px) { /* Adjust breakpoint as needed */
+@media (max-width: 368px) {
     .banner_text_block .link {
-        font-size: 15px;
+        font-size: 0.8rem;
     }
     .banner_text_block .hero {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .banner_text_block .description {
-        font-size: 15px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .banner_text_block .link {
+        font-size: 1.2rem;
+    }
+    .banner_text_block .hero {
+        font-size: 3.5rem;
+    }
+    .banner_text_block .description {
+        font-size: 1.2rem;
     }
 }
 
@@ -231,6 +243,24 @@ body {
     text-decoration: none;
 }
 
+@media (max-width: 368px) {
+    .about h2 {
+        font-size: 2.5rem;
+    }
+    .about .description {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .about h2 {
+        font-size: 3.5rem;
+    }
+    .about .description {
+        font-size: 1.2rem;
+    }
+}
+
 /* --------- Our Services ------------ */
 .our-services {
     background-color: var(--primary-dark);
@@ -268,7 +298,7 @@ body {
 .our-services .text-block h2 {
     font-family: var(--primary-font-raleway);
     font-weight: 700;
-    font-size: 2.87rem;
+    font-size: 3rem;
     line-height: 1.1em;
     color: #fff;
 }
@@ -277,7 +307,7 @@ body {
     margin-top: 30px;
     font-family: var(--primary-font-nunito);
     font-weight: 500;
-    font-size: 1.12rem;
+    font-size: 1rem;
     line-height: 1.5em;
     color: var(--primary-gray);
 }
@@ -311,7 +341,7 @@ body {
     margin: 20px 0;
     font-family: var(--primary-font-nunito);
     font-weight: 500;
-    font-size: 1.12rem;
+    font-size: 1rem;
     line-height: 1.5em;
     color: var(--primary-gray);
     transition: all 0.7s;
@@ -359,6 +389,27 @@ body {
         height: auto;
         display: flex;
         justify-content: space-between;
+    }
+}
+
+@media (max-width: 368px) {
+    .our-services .text-block h2 {
+        font-size: 2.5rem;
+    }
+    .our-services .text-block .description {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .our-services .text-block h2  {
+        font-size: 3.5rem;
+    }
+    .our-services .text-block .description {
+        font-size: 1.2rem;
+    }
+    .blocks-wrap .card .card-text {
+        font-size: 1.2rem;
     }
 }
 
