@@ -123,7 +123,7 @@
     margin: 10px 0;
     font-family: var(--primary-font-nunito);
     font-weight: 500;
-    font-size: 1.12rem;
+    font-size: 1rem;
     line-height: 1.5em;
     color: var(--primary-color);
 }
@@ -132,7 +132,7 @@
     margin: 20px 0 10px;
     font-family: var(--primary-font-raleway);
     font-weight: 700;
-    font-size: 3.75rem;
+    font-size: 3rem;
     line-height: 1.1em;
     color: var(--primary-dark);
 }
@@ -142,10 +142,34 @@
     margin: 30px 0 0;
     font-family: var(--primary-font-nunito);
     font-weight: 500;
-    font-size: 1.12rem;
+    font-size: 1rem;
     line-height: 1.5em;
     color: var(--primary-gray);
     max-width: 500px;
+}
+
+@media (max-width: 368px) {
+    .banner_text_block .link {
+        font-size: 0.8rem;
+    }
+    .banner_text_block .hero {
+        font-size: 2.5rem;
+    }
+    .banner_text_block .description {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .banner_text_block .link {
+        font-size: 1.2rem;
+    }
+    .banner_text_block .hero {
+        font-size: 3.5rem;
+    }
+    .banner_text_block .description {
+        font-size: 1.2rem;
+    }
 }
 
 /* -------- Services Section --------- */
@@ -169,7 +193,7 @@
     margin: 10px auto;
     padding: 0;
     font-family: var(--primary-font-raleway);
-    font-size: 2.87rem;
+    font-size: 2.8rem;
     font-weight: 700;
     line-height: 1.1em;
     color: #fff;
@@ -182,13 +206,30 @@
     padding: 0;
     max-width: 600px;
     font-family: var(--primary-font-nunito);
-    font-size: 1.12rem;
+    font-size: 1rem;
     font-weight: 500;
     line-height: 1.5em;
     color: var(--primary-gray);
     text-align: center;
 }
 
+@media (max-width: 368px) {
+    .section_1 h2 {
+        font-size: 2.5rem;
+    }
+    .section_1 .description {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .section_1 .description {
+        font-size: 3.5rem;
+    }
+    .section_1 .description {
+        font-size: 1.2rem;
+    }
+}
 /* ----------- Our Products ----------- */
 .our-products {
     /* border: 1px solid #fff; */
@@ -199,7 +240,7 @@
 .our-products .work-info h2 {
     font-family: var(--primary-font-raleway);
     font-weight: 700;
-    font-size: 46px;
+    font-size: 2.8rem;
     line-height: 1.1em;
     color: #fff;
 }
@@ -208,9 +249,27 @@
     margin-top: 30px;
     font-family: var(--primary-font-nunito);
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 1.5em;
     color: var(--primary-gray);
+}
+
+@media (max-width: 368px) {
+    .our-products .work-info h2 {
+        font-size: 2.5rem;
+    }
+    .our-products .work-info .description {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .our-products .work-info h2 {
+        font-size: 3.5rem;
+    }
+    .our-products .work-info .description {
+        font-size: 1.2rem;
+    }
 }
 
 .our-products .work-info .btn-white {
@@ -270,7 +329,7 @@
     padding: 15px;
     text-align: center;
     color: #fff;
-    font-size: 1.12rem;
+    font-size: 1rem;
 }
 
 .card-description h3 {
@@ -338,7 +397,7 @@
 .work-info h2 {
     font-family: var(--primary-font-raleway);
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 2.8rem;
     line-height: 1.1em;
     color: var(--primary-dark);
     text-align: center;
@@ -347,12 +406,30 @@
 .work-info .description {
     font-family: var(--primary-font-nunito);
     font-weight: 500;
-    font-size: 1.3rem;
-    line-height: 1.5em;
+    font-size: 1rem;
+    line-height: 1em;
     color: var(--primary-gray);
     text-align: center;
     width: 70%;
     margin: auto;
+}
+
+@media (max-width: 368px) {
+    .work-info h2 {
+        font-size: 2.5rem;
+    }
+    .work-info .description {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .work-info h2 {
+        font-size: 3.5rem;
+    }
+    .work-info .description {
+        font-size: 1.2rem;
+    }
 }
 
 .section_2 .service-item {
@@ -378,7 +455,7 @@
     padding: 0;
     font-family: var(--primary-font-raleway);
     font-weight: 700;
-    font-size: 2.75rem;
+    font-size: 2.5rem;
     line-height: 1.1em;
     color: var(--primary-dark);
 }
@@ -388,11 +465,29 @@
     margin: 20px 0;
     padding: 0;
     font-family: var(--primary-font-nunito);
-    font-size: 1.12rem;
+    font-size: 1rem;
     font-weight: 500;
     line-height: 1.5em;
     color: var(--primary-gray);
     text-align: left;
+}
+
+@media (max-width: 368px) {
+    .section_2 .service-item .service-text h3 {
+        font-size: 2rem;
+    }
+    .section_2 .service-item .service-text .description {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .work-info h2 {
+        font-size: 3rem;
+    }
+    .work-info .description {
+        font-size: 1.2rem;
+    }
 }
 
 .section_2 .service-item .service-image {
