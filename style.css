@@ -535,7 +535,7 @@ body {
     margin-top: 30px;
     font-family: var(--primary-font-nunito);
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 1.5em;
     color: #fff;
 }
@@ -561,6 +561,7 @@ body {
     text-decoration: none;
     color: #fff;
     transition: 0.5s;
+    font-size: 1rem;
 }
 
 .footer-social-icons a:hover {
@@ -621,4 +622,28 @@ iframe {
 iframe:hover {
     /* transform: scale(1.05); */
     opacity: 1;
+}
+
+@media (max-width: 368px) {
+    .footer-brand-description {
+        font-size: 0.8rem;
+    }
+   .footer a {
+        font-size: 0.8rem;
+    }
+   .footer-copyright {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .footer-brand-description {
+        font-size: 1.2rem;
+    }
+    .footer a {
+        font-size: 1.2rem;
+    }
+    .footer-copyright {
+        font-size: 1.2rem;
+    }  
 }
