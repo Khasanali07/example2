@@ -29,7 +29,7 @@ body {
     /* border: 1px solid red; */
     width: 100%;
     height: 100vh;
-    background-image: url(./images/header/home-background-3.jpg);
+    background-image: url(/images/header/home-background-3.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -42,10 +42,48 @@ body {
 }
 
 /* -------------- Nav Bar -------------- */
+.navigation-bar {
+    background-color: #001438;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 1;
+}
+
 .offcanvas-title {
     color: #fff;
     font-size: 1.5em;
 }
+
+/* Language Selector */
+.language-selector {
+   width: 130px;
+   margin-left: 25px; 
+   padding: 9px;
+   border: none;
+   /* border-radius: 15px; */
+   background-color: #0057ff;
+   color: #fff;
+   /* display: none; */
+   font-size: 1.2rem;
+   font-family: var(--primary-font-nunito);
+}
+
+.language-selector option {
+    font-size: 1.2rem;
+    font-family: var(--primary-font-nunito);
+    color: var(--primary-dark);
+    background-color: #fff;
+}
+
+@media (max-width: 991px) {
+    .language-selector {
+        width: 100px;
+        margin: 0 auto;
+        padding: 5px;
+    }
+}
+/* ---------------- */
 
 .offcanvas-body .nav-link {
     font-family: var(--primary-font-raleway);
@@ -99,6 +137,7 @@ body {
         color: #fff;
     }
 }
+
 
 /* -------------- Home Banner in the Header -------------- */
 .home_banner {
@@ -580,7 +619,8 @@ body {
 }
 
 .footer-call {
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 0;
 }
 
 .footer-call a {
